@@ -1,0 +1,10 @@
+<?php
+
+//ternay operators
+
+
+
+
+
+
+?>
