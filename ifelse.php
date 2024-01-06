@@ -35,5 +35,31 @@ else{
 }
 
 
+$x=1000;
+echo "</br>";
+if($x==="1000"){
+   
+    echo "it is equal";
+}
+else{
+    echo "its is not equal";
+}
+
+$marks=56;
+echo "</br>";
+if($marks>=80 && $marks<=100):
+    echo "merit";
+    elseif($marks>=60 && $marks<=79):
+        echo "1st division";
+        elseif($marks>=45 && $marks<=59):
+            echo "2nd division";
+            elseif($marks>=33 && $marks<=44):
+                echo "3rd division";
+            elseif($marks<33):
+                echo "fail";
+            endif;
+    
+            
+
 
 ?>
